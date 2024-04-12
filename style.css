@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #e9f8ff;
+
+}
+.profile_card{
+    width: 350px;
+    height: 450px;
+    background: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 25%;
+    border: 1px solid rgb(255, 119, 0);
+    left: 40%;
+    transition: 1s;
+  
+}
+.top_profile_card{
+    width: 100%;
+    height: 150px;
+    background: #4071F4;
+    border-radius: 10px 10px 0px 0px;
+    position: absolute;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: 25%; 
+    border: 5px solid rgb(255, 119, 0);
+    object-fit: cover;
+}
+.bottom_profile_card{
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    top: 190px;
+    text-align: center;
+    
+    
+}
+.bottom_profile_card h2{
+    /* border: 1px solid red; */
+    margin-bottom: 5px;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+
+
+}
+.bottom_profile_card h4{
+    /* border: 1px solid red; */
+    margin-top: 0px;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+}
+.social_media{
+    width: 60%;
+    height: 40px;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 10px;
+    line-height: 40px;
+}
+.social{
+    width: 40px;
+    height: 40px;
+    /* border: 1px solid red; */
+    display: block;
+    float: left;
+    border-radius: 50%;
+    font-size: 17px;
+    margin: auto;
+    margin-left: 10px;
+}
+#fb{
+    background: #00527e;
+    color: white;
+}
+#insta{
+    background: #FF3040;
+    color: white;
+}
+#twitter{
+    background: #1f1f1f;
+    color: white;
+}
+#youtube{
+    background: #FF0000;
+    color: white;
+}
+.button_section{
+    /* position: absolute; */
+    width:70%;
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+    /* background: #000; */
+    text-align: center;
+}
+.btn{
+    display: block;
+    width: 100px;
+    height: 40px;
+    float: left;
+    background: #00527e;
+    color: white;
+    margin: 10px;
+    line-height: 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 1s;
+}
+.btn:hover{
+    background: #FF0000;
+    color: white;
+}
+.social:hover{
+    background: #c800ff;
+    color: white;
+}
+.profile_card:hover{
+    /* transform: rotate(80deg); */
+    transform: scale(1.2);
+}
